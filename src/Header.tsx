@@ -1,5 +1,6 @@
 import { FC, useState } from 'react'
 import { ITabs } from './App'
+import PizzaContent from './PizzaContent'
 
 
 interface IHeaderProps {
@@ -25,7 +26,7 @@ setContent(text)
             <br />
             <br />
             <div >
-                {content == "Pizza" && <h2>Pizza content</h2>}
+                {content == "Pizza" && <h2><PizzaContent/></h2>}
                 {content == "Drinks" && <h2>Pasta content</h2>}
                 {content == "Deserts" && <h2>Burgers content</h2>}
             </div>
