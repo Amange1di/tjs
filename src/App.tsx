@@ -29,7 +29,7 @@ const tabs: ITabs[] = [
 ]
 
 
-console.log(tabs);
+
 // any, unknown, void,
 // <generic type (number, boolean, T,K)>
 
