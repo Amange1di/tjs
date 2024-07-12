@@ -1,46 +1,29 @@
-
+import React from 'react'
 import Header from './Header'
 
 
-// type TypeTabs = {
-//   name: string
-// }
 
-
-export interface ITabs{
+export interface ITabs {
   name: string
 }
 
-
 const tabs: ITabs[] = [
   {
-    name: "Pizza",
-
+    name: 'Pizza',
   },
   {
-    name: "Drinks",
-
+    name: 'Drinks',
   },
   {
-    name: "Deserts",
-
-  },
-
+    name: 'Deserts',
+  }
 ]
 
 
-
-// any, unknown, void,
-// <generic type (number, boolean, T,K)>
-
-
-
 const App: React.FC = () => {
-
   return (
     <div>
-      < Header tabs={tabs}/>
-      
+      <Header tabs={tabs} />
     </div>
   )
 }

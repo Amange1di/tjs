@@ -1,21 +1,29 @@
-*{
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.container{
+
+.container {
   width: 1200px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: #000;
   margin-right: 20px;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
-  
+}
+
+.btn:hover{
+  background: red!important;
+  color: #fff;
 }
